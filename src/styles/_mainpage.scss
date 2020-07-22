@@ -1,0 +1,56 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  &__content {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+  &__header {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+
+    &__title {
+      padding: 1.4rem;
+    }
+
+    &--top {
+      flex-basis: 55%;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__controls {
+      display: flex;
+      align-items: center;
+      margin: 0 1rem;
+      float: left;
+    width: 40%;
+
+      .btn:not(:last-child) {
+        margin-right: 1rem;
+      }
+    }
+
+    &--bottom {
+      display: flex;
+      border-bottom: 0.1rem solid #cccccc;
+      justify-content: space-between;
+      padding-bottom: 1rem;
+    }
+  }
+}
+.main__header__title h1{
+  font-size: 28px;
+}
+.main__header__title h3{
+  font-size: 16px;
+  color:#ccc;
+}
+.main__header__title p{
+  font-size: 20px;
+  color:#000;
+}

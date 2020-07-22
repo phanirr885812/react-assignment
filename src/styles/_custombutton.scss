@@ -1,0 +1,56 @@
+.btn {
+  border: 1px solid #ccc;
+  padding: 0px 10px;
+   
+  cursor: pointer;
+  box-shadow: 0 0.1rem 0.2rem rgba($color: #000000, $alpha: 0.1);
+  font-size: 1.2rem;
+}
+
+.btn--white {
+  background-color: white;
+  padding: 2rem;
+  font-size: 1.5rem;
+  width: 100%;
+  border-radius: 0;
+  margin-left: 0px;
+  float: left;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn--circle {
+  padding: 0;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  background-color: white;
+  text-align: center;
+  line-height: 3rem;
+  font-size: 1rem;
+}
+
+.btn--polygon {
+  background: white;
+  padding: 1rem 1.3rem;
+  border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.btn--default {
+  padding: 1rem 1.3rem;
+}
+
+.btn--rectangle {
+  padding: 1rem 1.3rem;
+  border-radius: 0;
+}
+
+.btn--blue {
+  background-color: #007fb1;
+  color: white;
+  padding: 10px 49px;
+  font-size: 15px;
+  font-weight: bold;
+}
+ 
